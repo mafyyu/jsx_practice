@@ -1,0 +1,42 @@
+
+.title{
+    text-align:left;
+    margin:30px;
+  }
+  .indivi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  
+  .card {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 6px 13px -3px rgba(0, 12, 66, 0.1), 0 0 1px rgba(0, 30, 100, 0.1);
+    border-radius: 12px;
+    margin: 15px; /* 水平方向のマージンは無し */
+    height: auto;
+    width: calc(33.33% - 30px); /* マージンの影響を考慮 */
+    box-sizing: border-box; /* パディングとボーダーの影響を除く */
+  }
+  
+  .card img{
+    border-radius:50%;
+  
+  }
+  .comment{
+    word-break: break-all;
+  }
+  .button button{
+    display:block;
+    margin:auto;
+    width:100px;
+    height:30px;
+  }
+  .button h1{
+    text-align:center;
+    color:blanchedalmond;
+  }
+  
+  
